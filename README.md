@@ -1,2 +1,4 @@
-# csgo-loadlibrary-bypass
- it revokes the whole anti-loadlibrary injection mechanism
+## references
+
+- https://github.com/Zer0Mem0ry/SignatureScanner
+- https://github.com/danielkrupinski/OneByteLdr
