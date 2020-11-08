@@ -52,7 +52,7 @@ DWORD FindProcessId(const std::string& processName)
 
 PVOID main()
 {
-	    PVOID pattern = PatternScan("csgo.exe", "csgo.exe", "\x74\x1B\xF6\x45\x0C\x20", "xxxxxx");
+	    	PVOID pattern = PatternScan("csgo.exe", "csgo.exe", "\x74\x1B\xF6\x45\x0C\x20", "xxxxxx");
 		HANDLE pHandle = OpenProcess(PROCESS_ALL_ACCESS, FALSE, FindProcessId("csgo.exe"));
 	
 		if (!pHandle) {
